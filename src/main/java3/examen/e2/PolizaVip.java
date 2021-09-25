@@ -11,5 +11,12 @@ String getBeneficio() {
 void setBeneficio(String beneficio) {
 	this.beneficio = beneficio;
 }
+
+@Override
+public String toString() {
+	return "PolizaVip [beneficio=" + beneficio + ", nombre=" + nombre + ", descripcion=" + descripcion
+			+ ", anioVigencia=" + anioVigencia + ", codigoPoliza=" + codigoPoliza + ", valorPoliza=" + valorPoliza
+			+ "]";
+}
 	
 }

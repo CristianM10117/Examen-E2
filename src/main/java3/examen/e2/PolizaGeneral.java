@@ -16,6 +16,12 @@ int getNumeroSeguro() {
 }
 void setNumeroSeguro(int numeroSeguro) {
 	this.numeroSeguro = numeroSeguro;
+}
+@Override
+public String toString() {
+	return "PolizaGeneral [codigoDescuento=" + codigoDescuento + ", numeroSeguro=" + numeroSeguro + ", nombre=" + nombre
+			+ ", descripcion=" + descripcion + ", anioVigencia=" + anioVigencia + ", codigoPoliza=" + codigoPoliza
+			+ ", valorPoliza=" + valorPoliza + "]";
 } 
 
 }

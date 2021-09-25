@@ -25,6 +25,7 @@ public class MainAseguradora {
 	int i; 
 	int j;
 	boolean resultado;
+	boolean resultado1;
 	
 	PolizaVip usuarioy = new PolizaVip();
 	PolizaGeneral usuariox = new PolizaGeneral(); 
@@ -118,18 +119,13 @@ public class MainAseguradora {
 				 System.out.println("Ingrese el codigo de poliza a buscar: ");
 					cb = L2.nextLine();
 					
-					 resultado = vector[i].equals(cb); 
-					 resultado = vector[j].equals(cb);
+					 resultado1 = vector[i].equals(cb); 
+					 resultado1 = vector[j].equals(cb);
 				
 			 }
 			 
 			 }
-		
-		}
-		
-		}
-		
-       
+	
 	}
 
 }
