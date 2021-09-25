@@ -3,7 +3,7 @@ package examen.e2;
 public class Poliza {
 	String nombre; 
 	String descripcion; 
-	int añoVigencia; 
+	int anioVigencia; 
 	String codigoPoliza; 
 	int valorPoliza;
 	
@@ -19,11 +19,11 @@ public class Poliza {
 	void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-	int getAñoVigencia() {
-		return añoVigencia;
+	int getAnioVigencia() {
+		return anioVigencia;
 	}
-	void setAñoVigencia(int añoVigencia) {
-		this.añoVigencia = añoVigencia;
+	void setAnioVigencia(int anioVigencia) {
+		this.anioVigencia = anioVigencia;
 	}
 	String getCodigoPoliza() {
 		return codigoPoliza;
